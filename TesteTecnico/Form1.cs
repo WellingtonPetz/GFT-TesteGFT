@@ -39,7 +39,7 @@ namespace TesteTecnico
             {
                 trades = new Trades();
 
-                trades.AddTrade(Convert.ToDouble(item.ToString().Split(";")[0]), item.ToString().Split(";")[1]);
+                trades.AddTrade(Convert.ToDouble(item.ToString().Split(";")[0]), item.ToString().Split(";")[1], DateTime.Now.Date);
 
                 Portifolio.Add(trades);
             }

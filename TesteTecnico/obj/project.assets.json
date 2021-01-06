@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "BibliotecaTesteGFT/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BibliotecaTesteGFT.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaTesteGFT.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BibliotecaTesteGFT/1.0.0": {
+      "type": "project",
+      "path": "../BibliotecaTesteGFT/BibliotecaTesteGFT.csproj",
+      "msbuildProject": "../BibliotecaTesteGFT/BibliotecaTesteGFT.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "BibliotecaTesteGFT >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\welli\\.nuget\\packages\\": {},
@@ -38,7 +56,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\welli\\source\\repos\\GFT\\BibliotecaTesteGFT\\BibliotecaTesteGFT.csproj": {
+              "projectPath": "C:\\Users\\welli\\source\\repos\\GFT\\BibliotecaTesteGFT\\BibliotecaTesteGFT.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

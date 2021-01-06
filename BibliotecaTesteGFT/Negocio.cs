@@ -11,6 +11,7 @@ namespace TesteTecnico
             List<tradeCategories> categoriesList = new List<tradeCategories>();
 
 
+            
 
             foreach (var item in portifolio)
             {

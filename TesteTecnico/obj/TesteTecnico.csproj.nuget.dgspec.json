@@ -4,6 +4,16 @@
     "C:\\Users\\welli\\source\\repos\\GFT\\TesteTecnico\\TesteTecnico.csproj": {}
   },
   "projects": {
+    "C:\\Users\\welli\\source\\repos\\GFT\\BibliotecaTesteGFT\\BibliotecaTesteGFT.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\welli\\source\\repos\\GFT\\BibliotecaTesteGFT\\BibliotecaTesteGFT.csproj",
+        "projectName": "BibliotecaTesteGFT",
+        "projectPath": "C:\\Users\\welli\\source\\repos\\GFT\\BibliotecaTesteGFT\\BibliotecaTesteGFT.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\welli\\source\\repos\\GFT\\TesteTecnico\\TesteTecnico.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +41,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\welli\\source\\repos\\GFT\\BibliotecaTesteGFT\\BibliotecaTesteGFT.csproj": {
+                "projectPath": "C:\\Users\\welli\\source\\repos\\GFT\\BibliotecaTesteGFT\\BibliotecaTesteGFT.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
