@@ -1,0 +1,10 @@
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\obj\Debug\TesteGFTConsole.csprojAssemblyReference.cache
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\obj\Debug\TesteGFTConsole.csproj.CoreCompileInputs.cache
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\bin\Debug\TesteGFTConsole.exe.config
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\bin\Debug\TesteGFTConsole.exe
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\bin\Debug\TesteGFTConsole.pdb
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\bin\Debug\BibliotecaTesteGFT.dll
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\bin\Debug\BibliotecaTesteGFT.pdb
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\obj\Debug\TesteGFTConsole.csproj.CopyComplete
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\obj\Debug\TesteGFTConsole.exe
+C:\Users\welli\source\repos\GFT\TesteGFTConsole\obj\Debug\TesteGFTConsole.pdb

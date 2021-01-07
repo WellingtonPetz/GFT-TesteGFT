@@ -6,44 +6,41 @@ namespace TesteTecnico
 {
     public class Negocio
     {
-        public List<tradeCategories> ListaCategorias(List<ITrade> portifolio)
+        public List<tradeCategories> ListaCategorias(List<ITrade> portifolio, DateTime referenceDate)
         {
             List<tradeCategories> categoriesList = new List<tradeCategories>();
 
 
-            
-
             foreach (var item in portifolio)
             {
-                switch (item.ClientSector)
+                TimeSpan diferenca = referenceDate- item.NextPaymentDate;
+
+                int dias = diferenca.Days;
+
+                //if (item.IsPoliticallyExposed)
+                //{
+                //    categoriesList.Add(new tradeCategories("PEP"));
+
+                //}
+                //else 
+                if (dias > 30)
                 {
-                    case "PUBLIC":
-                        if (item.Value < 1000000)
-                        {
-                            categoriesList.Add(new tradeCategories("LOWRISK"));
-
-                        }
-                        else  if (item.Value > 1000000)
-                        {
-                            categoriesList.Add(new tradeCategories("MEDIUMRISK"));
-                        }
-                        break;
-
-                    case "PRIVATE":
-                        if (item.Value > 1000000)
-                        {
-                            categoriesList.Add(new tradeCategories("HIGHRISK"));
-                        }
-                        else
-                        {
-                            categoriesList.Add(new tradeCategories("NONE"));
-                        }
-                        break;
-
-                    default:
-                        break;
+                    categoriesList.Add(new tradeCategories("DEFAULTED"));
                 }
-                   
+                else if (item.Value > 1000000 && item.ClientSector.ToString().ToUpper() == "PRIVATE")
+                {
+                    categoriesList.Add(new tradeCategories("HIGHRISK"));
+
+                }
+                else if (item.Value > 1000000 && item.ClientSector.ToString().ToUpper() == "PUBLIC")
+                {
+                    categoriesList.Add(new tradeCategories("MEDIUMRISK"));
+
+                }
+                else
+                {
+                    categoriesList.Add(new tradeCategories("UNDEFINED"));
+                }
             }
 
             return categoriesList;

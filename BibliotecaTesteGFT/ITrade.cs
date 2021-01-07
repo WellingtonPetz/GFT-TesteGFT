@@ -10,10 +10,9 @@ namespace TesteTecnico
         double Value { get; } //indicates the transaction amount in dollars
         string ClientSector { get; } //indicates the client´s sector which can be "Public" or "Private"
         DateTime NextPaymentDate { get; } //indicates when the next payment from the client to the bank is expected
+        //bool IsPoliticallyExposed { get; }
 
 
-        public void AddTrade(double _value, string _clientSector)
-        {}
     }
 
     public class Trades : ITrade
@@ -21,6 +20,7 @@ namespace TesteTecnico
         private double value;
         private string clientSector;
         private DateTime nextPaymentDate;
+        //private bool isPoliticallyExposed;
 
 
         public double Value
@@ -40,7 +40,23 @@ namespace TesteTecnico
             get { return nextPaymentDate; }
             set { this.nextPaymentDate = value; }
         }
+
+        //public bool IsPoliticallyExposed
+        //{
+        //    get { return IsPoliticallyExposed; }
+        //    set { this.IsPoliticallyExposed = value; }
+        //}
+        //public void AddTrade(double _value, string _clientSector, DateTime _nextPaymentDate, bool _IsPoliticallyExposed)
+
+        //{
+        //    this.Value = _value;
+        //    this.ClientSector = _clientSector;
+        //    this.NextPaymentDate = _nextPaymentDate;
+        //    this.IsPoliticallyExposed = _IsPoliticallyExposed;
+        //}
+
         public void AddTrade(double _value, string _clientSector, DateTime _nextPaymentDate)
+
         {
             this.Value = _value;
             this.ClientSector = _clientSector;

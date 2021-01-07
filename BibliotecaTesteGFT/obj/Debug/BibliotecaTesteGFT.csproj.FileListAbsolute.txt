@@ -1,0 +1,6 @@
+C:\Users\welli\source\repos\GFT\BibliotecaTesteGFT\obj\Debug\BibliotecaTesteGFT.csprojAssemblyReference.cache
+C:\Users\welli\source\repos\GFT\BibliotecaTesteGFT\obj\Debug\BibliotecaTesteGFT.csproj.CoreCompileInputs.cache
+C:\Users\welli\source\repos\GFT\BibliotecaTesteGFT\bin\Debug\BibliotecaTesteGFT.dll
+C:\Users\welli\source\repos\GFT\BibliotecaTesteGFT\bin\Debug\BibliotecaTesteGFT.pdb
+C:\Users\welli\source\repos\GFT\BibliotecaTesteGFT\obj\Debug\BibliotecaTesteGFT.dll
+C:\Users\welli\source\repos\GFT\BibliotecaTesteGFT\obj\Debug\BibliotecaTesteGFT.pdb

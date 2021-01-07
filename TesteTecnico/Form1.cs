@@ -44,7 +44,7 @@ namespace TesteTecnico
                 Portifolio.Add(trades);
             }
 
-            categoriesList = pesquisa.ListaCategorias(Portifolio);
+            categoriesList = pesquisa.ListaCategorias(Portifolio, DateTime.Now.Date);
 
 
             foreach (var categorie in categoriesList)

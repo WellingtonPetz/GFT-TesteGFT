@@ -1,0 +1,8 @@
+Devemos acrescentar um novo parâmetro na interface ITrade e na classe. Tratar a entrada de um novo argumento, e na passagem de parâmetros para classe de validação. E incluir uma nova validação na regra de negócio da listagem das categorias.
+
+Obs: O que deveria ser feito está aplicado nas classes do projeto, porém, comentado.
+
+
+We must add a new parameter in the ITrade interface and in its class. Handling the entry of a new argument, and the parameters to the validation class. And we should include a new validation in the business area for listing the categories.
+
+Note: What should be done are applied on the project code, however, as a commented line.
